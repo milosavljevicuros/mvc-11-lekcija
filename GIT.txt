@@ -6,4 +6,5 @@ UPLOAD :
 
 cd "C:\xampp\htdocs\mvc-11-lekcija"
 git add -A
+git commit -m "KOMENTAR"
 git push
