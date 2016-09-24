@@ -1,6 +1,7 @@
 <?php
 class Error extends Controller {
-
+    //dodat ovaj komentar
+    //ajmo sada please!
     function __construct() {
         parent::__construct(); 
     }
