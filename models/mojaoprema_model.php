@@ -27,5 +27,12 @@ class Mojaoprema_Model extends Model {
         $id = (int) $_POST['opremaid'];
         $this->db->delete('oprema', "opremaid = '$id'");
     }
-
+    public function xhrKonektuj()
+    {
+        $id = (int) $_POST['opremaid'];
+        $result = array($id => " ".$id." --> nekiString");
+        sleep(2);
+        echo json_encode($result);
+        //$this->db->delete('oprema', "opremaid = '$id'");
+    }
 }

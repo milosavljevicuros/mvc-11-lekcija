@@ -37,5 +37,8 @@ class Mojaoprema extends Controller {
     {
         $this->model->xhrObrisi();
     }
-
+    function xhrKonektuj()
+    {
+        $this->model->xhrKonektuj();
+    }
 }
